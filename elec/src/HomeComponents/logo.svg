@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#F5F5F5" stroke="#4A90E2" stroke-width="5" />
+
+  <!-- Wind Turbine Blade -->
+  <polygon points="100,50 110,150 90,150" fill="#4A90E2" />
+  
+  <!-- Solar Panel (Yellow) -->
+  <rect x="60" y="60" width="80" height="80" fill="#F8E71C" />
+
+  <!-- Grid lines (Green) -->
+  <line x1="60" y1="100" x2="140" y2="100" stroke="#7ED321" stroke-width="4" />
+  <line x1="100" y1="60" x2="100" y2="140" stroke="#7ED321" stroke-width="4" />
+
+  <!-- Demand Peak Line (Red) -->
+  <polyline points="50,150 75,130 100,140 125,90 150,120" 
+            fill="none" stroke="#D0021B" stroke-width="4" />
+</svg>

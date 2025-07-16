@@ -1,0 +1,16 @@
+.custom-popup .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+  }
+  .custom-popup .leaflet-popup-content-wrapper a {
+    color: rgba(0, 120, 255, 1);
+  }
+  .custom-popup .leaflet-popup-tip-container {
+    width: 30px;
+    height: 15px;
+  }
+  .custom-popup .leaflet-popup-tip {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: none;
+  }
